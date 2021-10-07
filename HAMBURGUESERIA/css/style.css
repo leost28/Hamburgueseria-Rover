@@ -418,7 +418,7 @@ main #aboutus figure:hover .marco, main #aboutus figure:hover .marco img {
         border-bottom: 0;
         margin: var(--margingrid);
     }
-    main section .flex article:last-child {
+    main section .flex m:last-child {
         width: 100%;
     }
     main #aboutus .columna {
