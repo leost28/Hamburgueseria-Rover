@@ -340,12 +340,13 @@ main #aboutus figure:hover .marco, main #aboutus figure:hover .marco img {
 /* INICIO OUR BLOGS */
 .articles-container{
     width: 100%;
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 100px;
 }
 
-.articles-container article {
-    width: 50%;
+.articles-container .article {
+   width: 50%;
 }
 
 .article figure div{
@@ -446,6 +447,14 @@ main #aboutus figure:hover .marco, main #aboutus figure:hover .marco img {
     footer {
         text-align: left;
     }
+
+ 
+    
+    .articles-container .article {
+       width: 33.33%;
+    }
+
+    
 }
 
 /* media de 1004px */
