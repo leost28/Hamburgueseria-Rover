@@ -402,7 +402,25 @@ main #aboutus figure:hover .marco, main #aboutus figure:hover .marco img {
 
 
 
+/* INICIO MENU */
 
+
+.fondo section h2 {
+    color: white;
+    font-family: var(--fuentesecundaria);
+    font-size: 2em;
+    text-align: center;
+}
+
+.fondo {
+    background-color: var(--colorsecundario);
+
+}
+
+.menu-nav{
+font-family: var(--fuentesecundaria);
+color:white;
+}
 
 
 
