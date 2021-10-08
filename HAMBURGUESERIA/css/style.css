@@ -354,7 +354,7 @@ main #aboutus figure:hover .marco, main #aboutus figure:hover .marco img {
     background-color: var(--colorprincipal);
     position: absolute;
     /* opacity:0.7; */
-    background-color: rgba(250,87,58,.65);
+    background-color: rgba(250, 87, 58, 0.65);
 }
 
 .fechas {
@@ -420,7 +420,42 @@ main #aboutus figure:hover .marco, main #aboutus figure:hover .marco img {
 .menu-nav{
 font-family: var(--fuentesecundaria);
 color:white;
+margin-top: 50px;
+
+
 }
+
+.menu-nav ul li{
+    margin-bottom: 10px;
+    height: 25px;
+    margin-left: 20px;
+
+}
+
+.orange-block {
+    background-color: var(--colorprincipal);
+    border-radius: 3px;
+
+}
+
+
+.article-menu {
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+
+.underline-menu{
+ 
+    width: 40px;
+    font-weight: bold;
+    color: var(--colorprincipal);
+}
+
+
+
+
+
 
 
 
